@@ -1,7 +1,7 @@
 # Part 1
 
 ## Video Demo
-[Video Demo](https://youtu.be/1kPX0-3CJNQ).
+[Video Demo](https://youtu.be/04YrfCYveoA).
 
 ## Minimum Requirements
 ### Completed

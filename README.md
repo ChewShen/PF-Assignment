@@ -2,7 +2,7 @@
 - A match between alien and zombie, run or fight. Player as the alien. Theres even special skill on the match to make the game more exciting
   Make a good use of skill to win the match.
   
-[Video Demo](https://youtu.be/1kPX0-3CJNQ).
+[Video Demo](https://youtu.be/04YrfCYveoA).
 
 ## Compilation Instructions
 ```
