@@ -2,11 +2,13 @@
 - A match between alien and zombie, run or fight. Player as the alien. Theres even special skill on the match to make the game more exciting
   Make a good use of skill to win the match.
   
-[Video Demo](https://youtu.be/04YrfCYveoA).
+[Video Demo](https://youtu.be/aUD3lfRjt4U)
 
 ## Compilation Instructions
 ```
-type g++ main.cpp, then type "main" to start the game.
+type the command "g++ main.cpp -o main" in cmd (Command Prompt), you can do it in the complier itself such as Visual Studio but it is not recommanded.
+
+After that type in "main" to start the game. You can direct start the game if you complile directly in the complier
 ```
 
 ## User Manual

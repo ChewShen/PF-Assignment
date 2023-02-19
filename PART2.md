@@ -1,51 +1,53 @@
 # Part 2
 
 ## Video Demo
-
-Please provide the YouTube link to your [Video Demo](https://youtube.com).
+[Video Demo](https://youtu.be/aUD3lfRjt4U)
 
 ## Minimum Requirements
-
 ### Completed
-
-List all the features completed.
-
-1. Cool Feature #1
-2. Cool Feature #2
-3. *add more*
+1. Game Board
+2. Ability to customize game setting
+3. Guide menu
+4. Multiple zombie
+5. the movement of the alien
+6. health bar and other stat
+7. kill and win the game (For default game setting)
+8. attack zombie (For default game setting)
+9. alien attack using pod (For default game setting)
+10. Randomized zombie movement (For default game setting)
 
 ### To Do
-
-List all the features not yet done. Remove this section if there is no incomplete requirements.
-
-1. Cool Feature #1
-2. *add more*
+1. attack zombie (For custom game setting)
+2. kill and win the game (For custom game setting)
+3. Zombie range attack (Both)
+4. unable to change alien direction when hitting arrows (Both)
+5. Save and load game
+6. Skipable gameplay
 
 ## Additional Features
-
-Describe the additional features that has been implemented.
+1. Main menu
 
 ## Contributions
+- Chew Shen
+1. Main Menu
+2. Customize game setting
+3. Guide menu
+4. Object movement
+5. Demo video presenting
 
-List down the contribution of each group members.
-
-For example:
-
-### Tony Stark
-
-1. Randomly generate game board.
-2. *add more*
-
-### Steve Rogers
-
-1. Zombie movement and attack behaviour.
-2. *add more*
-
-### Dr. Strange
-
-1. Implement all game objects.
-2. *add more*
+- Teoh Kai Loon
+1. Game dashboard
+2. Customize game setting
+3. Game character
+4. Object movement
+5. Demo video presenting
+   
+-  Dylan Tarun Choo Shao Loon
+1. Game dashboard
+2. Customize game setting
+3. Game character
+4. Object movement
+5. Demo video presenting
 
 ## Problems Encountered & Solutions
-
-Describe the problems encountered and provide the solutions / plan for the solutions.
+- The :: (scope resolution operator) cant be run correctly, so we just put the class or the function at the same file location.
