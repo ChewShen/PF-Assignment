@@ -1,3 +1,13 @@
+// ********************************************************************
+// Course: TCP1101 PROGRAMMING FUNDAMENTALS 
+// Year: Trimester 1, 2022/23 (T2215) 
+// Lab: T11L 
+// Names: CHEW SHEN | TEOH KAI LOON | DYLAN TARUN CHOO SHAO LOON
+// IDs: 1211101589 |1211101582 | 1211103428
+// Emails: 1211101589@student.mmu.edu.my | 1211101582@student.mmu.edu.my | 1211103428@student.mmu.edu.my 
+// Phones: 012-9387921 | 011-60704897 | 012-6128052 
+// ********************************************************************
+
 #include <iostream>
 #include <string>
 #include <vector>
