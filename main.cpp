@@ -548,7 +548,7 @@ void Mars::MatchStart() //Control the movement of the alien
                 o = curiosity.getY();
                 if(map_[dimSum - o][q-1] == 'v')
                 { 
-                    cout << "Alien found an arrow, 20 attack damage has been added to Alien" << endl;
+                    cout << "Alien found an arrow, 10 attack damage has been added to Alien" << endl;
                     alien_attack += 10;
                     q = curiosity.getX();
                     o = curiosity.getY();
@@ -556,7 +556,7 @@ void Mars::MatchStart() //Control the movement of the alien
                 }
                 if (map_[dimSum - o][q-1]=='<')
                 {   
-                    cout << "Alien found an arrow, 20 attack damage has been added to Alien" << endl;
+                    cout << "Alien found an arrow, 10 attack damage has been added to Alien" << endl;
                     alien_attack += 10;
                     q=curiosity.getX();
                     o=curiosity.getY();
@@ -564,7 +564,7 @@ void Mars::MatchStart() //Control the movement of the alien
                  }
                 if(map_[dimSum - o][q-1] == '>')
                 { 
-                    cout << "Alien found an arrow, 20 attack damage has been added to Alien" << endl;
+                    cout << "Alien found an arrow, 10 attack damage has been added to Alien" << endl;
                     alien_attack += 10;
                     q = curiosity.getX();
                     o = curiosity.getY();
@@ -572,7 +572,7 @@ void Mars::MatchStart() //Control the movement of the alien
                 }
                 if (map_[dimSum - o][q-1]=='^')
                 {
-                    cout << "Alien found an arrow, 20 attack damage has been added to Alien" << endl;
+                    cout << "Alien found an arrow, 10 attack damage has been added to Alien" << endl;
                     alien_attack += 10;
                     q=curiosity.getX();
                     o=curiosity.getY();
@@ -580,7 +580,7 @@ void Mars::MatchStart() //Control the movement of the alien
                 }
                 if(map_[dimSum - o][q-1] == 'h')
                 { 
-                    cout << "Alien founds a health pack! 20 health points has been to Alien" << endl;
+                    cout << "Alien founds a health pack! 10 health points has been to Alien" << endl;
                     health = health + 20;
                     q = curiosity.getX();
                     o = curiosity.getY();
@@ -765,7 +765,7 @@ void Mars::MatchStart() //Control the movement of the alien
                 o = curiosity.getY();
                 if(map_[dimSum - o][q-1] == 'v')
                 { 
-                    cout << "Alien found an arrow, 20 attack damage has been added to Alien" << endl;
+                    cout << "Alien found an arrow, 10 attack damage has been added to Alien" << endl;
                     alien_attack += 10;
                     q = curiosity.getX();
                     o = curiosity.getY();
@@ -773,7 +773,7 @@ void Mars::MatchStart() //Control the movement of the alien
                 }
                 if (map_[dimSum - o][q-1]=='<')
                 {
-                    cout << "Alien found an arrow, 20 attack damage has been added to Alien" << endl;
+                    cout << "Alien found an arrow, 10 attack damage has been added to Alien" << endl;
                     alien_attack += 10;
                     q=curiosity.getX();
                     o=curiosity.getY();
@@ -789,7 +789,7 @@ void Mars::MatchStart() //Control the movement of the alien
                 }
                 if (map_[dimSum - o][q-1]=='^')
                 {
-                    cout << "Alien found an arrow, 20 attack damage has been added to Alien" << endl;
+                    cout << "Alien found an arrow, 10 attack damage has been added to Alien" << endl;
                     alien_attack += 10;
                     cout<<"pls";
                     cout<<o<<"."<<q;
@@ -799,7 +799,7 @@ void Mars::MatchStart() //Control the movement of the alien
                 }
                 if(map_[dimSum - o][q-1] == 'h')
                 { 
-                    cout << "Alien founds a health pack! 20 health points has been to Alien" << endl;
+                    cout << "Alien founds a health pack! 10 health points has been to Alien" << endl;
                     health = health + 20;
                     q = curiosity.getX();
                     o = curiosity.getY();
@@ -985,7 +985,7 @@ void Mars::MatchStart() //Control the movement of the alien
             // }
                 if(map_[dimSum - o][q-1] == 'v')
                 { 
-                    cout << "Alien found an arrow, 20 attack damage has been added to Alien" << endl;
+                    cout << "Alien found an arrow, 10 attack damage has been added to Alien" << endl;
                     alien_attack += 10;
                     q = curiosity.getX();
                     o = curiosity.getY();
@@ -993,7 +993,7 @@ void Mars::MatchStart() //Control the movement of the alien
                 }
                 if (map_[dimSum - o][q-1]=='<')
                 {
-                    cout << "Alien found an arrow, 20 attack damage has been added to Alien" << endl;
+                    cout << "Alien found an arrow, 10 attack damage has been added to Alien" << endl;
                     alien_attack += 10;
                     q=curiosity.getX();
                     o=curiosity.getY();
@@ -1001,7 +1001,7 @@ void Mars::MatchStart() //Control the movement of the alien
                 }
                 if(map_[dimSum - o][q-1] == '>')
                 { 
-                    cout << "Alien found an arrow, 20 attack damage has been added to Alien" << endl;
+                    cout << "Alien found an arrow, 10 attack damage has been added to Alien" << endl;
                     alien_attack += 10;
                     q = curiosity.getX();
                     o = curiosity.getY();
@@ -1009,7 +1009,7 @@ void Mars::MatchStart() //Control the movement of the alien
                 }
                 if (map_[dimSum - o][q-1]=='^')
                 {
-                    cout << "Alien found an arrow, 20 attack damage has been added to Alien" << endl;
+                    cout << "Alien found an arrow, 10 attack damage has been added to Alien" << endl;
                     alien_attack += 10;
                     cout << "pls";
                     q=curiosity.getX();
@@ -1018,7 +1018,7 @@ void Mars::MatchStart() //Control the movement of the alien
                 }
                 if(map_[dimSum - o][q-1] == 'h')
                 { 
-                    cout << "Alien founds a health pack! 20 health points has been to Alien" << endl;
+                    cout << "Alien founds a health pack! 10 health points has been to Alien" << endl;
                     health = health + 20;
                     q = curiosity.getX();
                     o = curiosity.getY();
@@ -1198,7 +1198,7 @@ void Mars::MatchStart() //Control the movement of the alien
                 o = curiosity.getY();
                 if(map_[dimSum - o][q-1] == 'v')
                 { 
-                    cout << "Alien found an arrow, 20 attack damage has been added to Alien" << endl;
+                    cout << "Alien found an arrow, 10 attack damage has been added to Alien" << endl;
                     alien_attack += 10;
                     q = curiosity.getX();
                     o = curiosity.getY();
@@ -1206,7 +1206,7 @@ void Mars::MatchStart() //Control the movement of the alien
                 }
                 if (map_[dimSum - o][q-1]=='<')
                 {
-                    cout << "Alien found an arrow, 20 attack damage has been added to Alien" << endl;
+                    cout << "Alien found an arrow, 10 attack damage has been added to Alien" << endl;
                     alien_attack += 10;
                     q=curiosity.getX();
                     o=curiosity.getY();
@@ -1214,7 +1214,7 @@ void Mars::MatchStart() //Control the movement of the alien
                 }
                 if(map_[dimSum - o][q-1] == '>')
                 { 
-                    cout << "Alien found an arrow, 20 attack damage has been added to Alien" << endl;
+                    cout << "Alien found an arrow, 10 attack damage has been added to Alien" << endl;
                     alien_attack += 10;
                     q = curiosity.getX();
                     o = curiosity.getY();
@@ -1222,7 +1222,7 @@ void Mars::MatchStart() //Control the movement of the alien
                 }
                 if (map_[dimSum - o][q-1] == '^')
                 {
-                    cout << "Alien found an arrow, 20 attack damage has been added to Alien" << endl;
+                    cout << "Alien found an arrow, 10 attack damage has been added to Alien" << endl;
                     alien_attack += 10;
                     q=curiosity.getX();
                     o=curiosity.getY();
