@@ -26,6 +26,7 @@
 
 ## Additional Features
 1. Main menu
+2. Alien auto move until hit object (For default game setting only)
 
 ## Contributions
 - Chew Shen
